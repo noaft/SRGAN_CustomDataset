@@ -10,7 +10,7 @@ from vgg19 import vgg19
 import numpy as np
 from PIL import Image
 from skimage.color import rgb2ycbcr
-from skimage.measure import peak_signal_noise_ratio
+from skimage.metrics import peak_signal_noise_ratio
 
 
 def train(args):
